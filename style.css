@@ -178,12 +178,8 @@ html, body {
     /* 150% */
     letter-spacing: -0.2px;
     padding: 6.63px 30px 5.37px 21.7px;
-    /* border-radius: 6px;
-    border: 2px solid transparent;
-    background: transparent; */
-
     border-radius: 6px;
-    border: 2px solid;
+    border: 2px transparent;
     background: transparent;
 }
 
