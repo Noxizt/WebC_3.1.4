@@ -184,6 +184,7 @@ html, body {
 }
 
 .tab-1 {
+    border: 2px solid;
     border-color: #B8FFEC;
     background-color: #FFF;
 }
