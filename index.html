@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="res/logo.png" type="image/x-icon">
+    <title>Document</title>
+</head>
+
+<body class="page-container">
+    <!-- UPPER MENU BLOCK -->
+    <header class="upper-menu">
+        <div class="upper-menu__left-side">
+            <div class="upper-menu__left-side__wrap">
+                <img src="res/burger.svg" alt="Меню">
+                <span class="left-divider"></span>
+            </div>
+            <img class="logo" src="res/logo.svg" alt="Логотип">
+        </div>
+        <div class="upper-menu__right-side">
+            <div class="upper-menu__right-side__first">
+                <img src="res/call.svg" alt="Позвонить">
+                <img src="res/chat.svg" alt="Чат">
+                <img src="res/profile.svg" alt="Профиль">
+            </div>
+            <span class="right-divider"></span>
+            <div class="upper-menu__right-side__second">
+                <img src="res/repair.svg" alt="Оставить заявку на ремонт">
+                <img src="res/checkstatus.svg" alt="Статус ремонта">
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- TITLE & REPAIR blocks -->
+        <div class="title-and-repair-wrap">
+            <div class="title-block">
+                <!-- <span class="highlight"><img src="res/highlight.svg"></span> -->
+                <picture>
+                    <source media="(min-width:1120px)" srcset="res/highlight_1120.svg">
+                    <img src="res/highlight.svg" style="width:auto;">
+                </picture>
+                <span class="title-block__text">Услуги и сервисы</span>
+            </div>
+            <div class="repair-block">
+                <div class="repair-block__repair">
+                    <span class="repair_block__repair__text">Оставить заявку</span>
+                    <img src="res/repair.svg" alt="Оставить заявку на ремонт">
+                </div>
+                <div class="repair-block__checkstatus">
+                    <span class="repair_block__checkstatus__text">Статус ремонта</span>
+                    <img src="res/checkstatus.svg" alt="Статус ремонта">
+                </div>
+            </div>
+        </div>
+        <!-- SLIDE MENU BLOCK -->
+        <nav class="slide-menu-wrap">
+            <ul class="slide-menu">
+                <li class="side-menu__links-wrap"><a class="slide-menu__links tab-1">Ремонтируемые бренды</a></li>
+                <li class="side-menu__links-wrap"><a class="slide-menu__links">Ремонтируемые устройства</a></li>
+                <li class="side-menu__links-wrap"><a class="slide-menu__links">Цены на услуги</a></li>
+                <li class="side-menu__links-wrap"><a class="slide-menu__links">Адреса сервисных центров</a></li>
+                <li class="side-menu__links-wrap"><a class="slide-menu__links">Специальные цены</a></li>
+                <li class="side-menu__links-wrap"><a class="slide-menu__links">Отзывы</a></li>
+            </ul>
+        </nav>
+        <!-- CONTENT BLOCK -->
+        <div class="content">
+            <section class="content__left">
+                <article class="content__left__text">
+                    Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете
+                    отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+                    <br>
+                    <br>
+                    Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое
+                    количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою
+                    очередь, советуют нас родным и близким.
+                </article>
+                <a class="content__left__read-more">
+                    <span><img src="res/expand.svg" alt="Читать далее"></span>
+                    <span class="content__read-more__text">Читать далее</span>
+                </a>
+            </section>
+            <div class="content__right">
+                <picture class="picture">
+                    <source media="(min-width:1120px)" srcset="res/1120.png">
+                    <source media="(min-width:768px)" srcset="res/768.png">
+                    <img src="res/320.png" alt="Вывеска CPS" style="width:auto;">
+                </picture>
+            </div>
+
+        </div>
+    </main>
+</body>
+
+</html>
